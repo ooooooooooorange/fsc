@@ -15,25 +15,20 @@ using System.Windows.Shapes;
 namespace jiaxiaotong1._0
 {
     /// <summary>
-    /// Login_Website.xaml 的交互逻辑
+    /// StudentMainWebsite.xaml 的交互逻辑
     /// </summary>
-    public partial class Login_Website : Window
+    public partial class StudentMainWebsite : Window
     {
-        public Login_Website()
+        public StudentMainWebsite()
         {
             InitializeComponent();
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
+        private void button8_Click(object sender, RoutedEventArgs e)
         {
-            string t = comboBox.Text;
-            if (t == "学生")
-            {
-                StudentMainWebsite w = new StudentMainWebsite();
-                w.Show();
-                this.Close();
-            }
-
+            Login_Website w = new Login_Website();
+            w.Show();
+            this.Close();
         }
     }
 }
