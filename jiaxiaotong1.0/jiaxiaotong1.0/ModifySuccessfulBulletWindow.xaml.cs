@@ -15,19 +15,13 @@ using System.Windows.Shapes;
 namespace jiaxiaotong1._0
 {
     /// <summary>
-    /// ModifyPasswordWebsite.xaml 的交互逻辑
+    /// ModifySuccessfulBulletWindow.xaml 的交互逻辑
     /// </summary>
-    public partial class ModifyPasswordWebsite : Window
+    public partial class ModifySuccessfulBulletWindow : Window
     {
-        public ModifyPasswordWebsite()
+        public ModifySuccessfulBulletWindow()
         {
             InitializeComponent();
-        }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            ModifySuccessfulBulletWindow w = new ModifySuccessfulBulletWindow();
-            w.Show();
         }
     }
 }

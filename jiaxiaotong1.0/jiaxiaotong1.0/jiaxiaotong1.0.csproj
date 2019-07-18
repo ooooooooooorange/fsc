@@ -64,6 +64,9 @@
     <Compile Include="ModifyPasswordWebsite.xaml.cs">
       <DependentUpon>ModifyPasswordWebsite.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ModifySuccessfulBulletWindow.xaml.cs">
+      <DependentUpon>ModifySuccessfulBulletWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ParentsMainWebsite.xaml.cs">
       <DependentUpon>ParentsMainWebsite.xaml</DependentUpon>
     </Compile>
@@ -90,6 +93,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="ModifyPasswordWebsite.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ModifySuccessfulBulletWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
