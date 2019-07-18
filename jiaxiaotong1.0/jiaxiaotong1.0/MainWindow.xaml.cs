@@ -24,5 +24,10 @@ namespace jiaxiaotong1._0
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
