@@ -47,7 +47,7 @@
                 <ImageBrush ImageSource="智慧校园.png"/>
             </Rectangle.Fill>
         </Rectangle>
-        <Button x:Name="button" Content="登陆" Background="#FFEDE9DD" VerticalAlignment="Bottom" Grid.Column="5" Margin="0,0,0,5.733" Grid.Row="1"/>
+        <Button x:Name="button" Content="登陆" Background="#FFEDE9DD" VerticalAlignment="Top" Grid.Column="4" Margin="61.4,6.6,-0.4,0" Grid.Row="1" Grid.ColumnSpan="2" Click="button_Click_1"/>
         <Button x:Name="button2" Content="机构设置" Background="#FFEDE9DD" Grid.Column="1" Margin="0" Grid.Row="1"/>
         <Button x:Name="button1" Content="学校简介" Margin="0" Grid.Row="1" Background="#FFEDE9DD"/>
         <Button x:Name="button4" Content="新闻"  Background="#FFEDE9DD" Grid.ColumnSpan="2" Grid.Column="3" Margin="0" Grid.Row="1"/>

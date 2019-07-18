@@ -10,31 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace jiaxiaotong1._0
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// Login_Website.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Login_Website : Window
     {
-        public MainWindow()
+        public Login_Website()
         {
             InitializeComponent();
-        }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void button_Click_1(object sender, RoutedEventArgs e)
-        {
-            Login_Website w = new Login_Website();
-            w.Show();
-            this.Close();
         }
     }
 }
