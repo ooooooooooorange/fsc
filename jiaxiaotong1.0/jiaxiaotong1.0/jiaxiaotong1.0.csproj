@@ -61,6 +61,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ParentsMainWebsite.xaml.cs">
+      <DependentUpon>ParentsMainWebsite.xaml</DependentUpon>
+    </Compile>
     <Compile Include="StudentMainWebsite.xaml.cs">
       <DependentUpon>StudentMainWebsite.xaml</DependentUpon>
     </Compile>
@@ -83,6 +86,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="ParentsMainWebsite.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Simple Styles.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -175,6 +182,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="图片5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="timg %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="timg %281%29.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

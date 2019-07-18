@@ -32,8 +32,8 @@
         <Label x:Name="label1" Content="登录角色选择：" Grid.Column="2" Margin="0,26.349,0,26.348" Grid.Row="2" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" FontSize="36"/>
         <Label x:Name="label1_Copy" Content="用户名：" Grid.Column="2" Margin="10,14.719,-10,10" Grid.Row="3" FontSize="36" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
         <Label x:Name="label1_Copy1" Content="密码：" Grid.Column="2" Margin="10,14.719,-10,10" Grid.Row="4" FontSize="36" RenderTransformOrigin="0.494,0.513"/>
-        <ComboBox x:Name="comboBox" Grid.Column="3" Margin="10,26.349,9.8,26.349" Grid.Row="2" d:LayoutOverrides="Height" FontSize="24">
-            <ComboBoxItem Content="家长&#xD;&#xA;" FontSize="24"/>
+        <ComboBox x:Name="comboBox" Grid.Column="3" Margin="10,26.349,9.8,26.349" Grid.Row="2" d:LayoutOverrides="Height" FontSize="24" >
+            <ComboBoxItem Content="家长" FontSize="24" Height="58" Margin="0,0,-0.2,0"/>
             <ComboBoxItem Content="学生" FontSize="24" Height="66"/>
             <ComboBoxItem Content="任课老师" Height="66" FontSize="24"/>
             <ComboBoxItem Content="班主任" FontSize="24" Height="53.68"/>

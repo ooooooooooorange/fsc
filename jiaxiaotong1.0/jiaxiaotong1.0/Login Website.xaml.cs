@@ -33,6 +33,12 @@ namespace jiaxiaotong1._0
                 w.Show();
                 this.Close();
             }
+            if (t == "家长")
+            {
+                ParentsMainWebsite w = new ParentsMainWebsite();
+                w.Show();
+                this.Close();
+            }
 
         }
     }
