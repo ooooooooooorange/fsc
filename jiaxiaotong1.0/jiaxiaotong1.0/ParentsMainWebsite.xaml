@@ -97,7 +97,7 @@
 
             <TextBlock x:Name="textBlock6" Margin="0,0,-2,0" TextWrapping="Wrap" Height="28.44" VerticalAlignment="Top" TextDecorations="{x:Null}" FontSize="18" Text="查看成绩"/>
         </StackPanel>
-        <Button x:Name="button7" Content="修改个人信息" Grid.Column="3" Margin="50,30" FontSize="18"/>
+        <Button x:Name="button7" Content="修改密码" Grid.Column="3" Margin="50,30" FontSize="18" Click="button7_Click"/>
         <Button x:Name="button8" Content="退出登录" Grid.Column="4" Margin="50,30" FontSize="18" Click="button8_Click" />
         <Rectangle Grid.ColumnSpan="2" Grid.Column="3" Margin="0,0,10,0" Grid.Row="1" Grid.RowSpan="2" Stroke="Black">
             <Rectangle.Fill>
