@@ -73,5 +73,11 @@ namespace jiaxiaotong1._0
             LookatHomeworkWebsites w = new LookatHomeworkWebsites();
             w.Show();
         }
+
+        private void button6_Click(object sender, RoutedEventArgs e)
+        {
+            ScoreWebsite w = new ScoreWebsite();
+            w.Show();
+        }
     }
 }

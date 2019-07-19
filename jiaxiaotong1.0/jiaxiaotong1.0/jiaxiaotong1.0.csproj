@@ -82,6 +82,9 @@
     <Compile Include="RewardAndPenaltyCommentsWebsite.xaml.cs">
       <DependentUpon>RewardAndPenaltyCommentsWebsite.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ScoreWebsite.xaml.cs">
+      <DependentUpon>ScoreWebsite.xaml</DependentUpon>
+    </Compile>
     <Compile Include="StudentMainWebsite.xaml.cs">
       <DependentUpon>StudentMainWebsite.xaml</DependentUpon>
     </Compile>
@@ -138,6 +141,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="RewardAndPenaltyCommentsWebsite.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ScoreWebsite.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
