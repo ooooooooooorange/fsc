@@ -79,6 +79,9 @@
     <Compile Include="TeaModifyInformationWebsite.xaml.cs">
       <DependentUpon>TeaModifyInformationWebsite.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewMessageWebsite.xaml.cs">
+      <DependentUpon>ViewMessageWebsite.xaml</DependentUpon>
+    </Compile>
     <Page Include="Login Website.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -123,6 +126,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="TeaModifyInformationWebsite.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewMessageWebsite.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

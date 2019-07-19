@@ -39,7 +39,7 @@
         </StackPanel>
         <StackPanel Margin="55,12" Grid.Row="2">
 
-            <Button x:Name="button1" Content="" Height="81.64">
+            <Button x:Name="button1" Content="" Height="81.64" Click="button1_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="2.png"/>
                 </Button.Background>
