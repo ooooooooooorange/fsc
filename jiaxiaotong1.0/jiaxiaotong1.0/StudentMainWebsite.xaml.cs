@@ -49,5 +49,17 @@ namespace jiaxiaotong1._0
             ViewMessageWebsite w = new ViewMessageWebsite();
             w.Show();
         }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            ExchangeWebsite w = new ExchangeWebsite();
+            w.Show();
+        }
+
+        private void button4_Click(object sender, RoutedEventArgs e)
+        {
+            RewardAndPenaltyCommentsWebsite w = new RewardAndPenaltyCommentsWebsite();
+            w.Show();
+        }
     }
 }

@@ -49,7 +49,7 @@
         </StackPanel>
         <StackPanel Margin="55,12" Grid.Row="3">
 
-            <Button x:Name="button2" Content="" Height="81.64">
+            <Button x:Name="button2" Content="" Height="81.64" Click="button2_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="图片1.png"/>
                 </Button.Background>
@@ -69,7 +69,7 @@
         </StackPanel>
         <StackPanel Margin="55,12" Grid.Row="5">
 
-            <Button x:Name="button4" Content="" Height="81.64">
+            <Button x:Name="button4" Content="" Height="81.64" Click="button4_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="图片7.png"/>
                 </Button.Background>
