@@ -36,5 +36,12 @@ namespace jiaxiaotong1._0
             ModifyPasswordWebsite w = new ModifyPasswordWebsite();
             w.Show();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            StuModifyInformationWebsite w = new StuModifyInformationWebsite();
+                w.Show();
+            this.Close();
+        }
     }
 }

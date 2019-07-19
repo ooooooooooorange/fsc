@@ -73,6 +73,9 @@
     <Compile Include="StudentMainWebsite.xaml.cs">
       <DependentUpon>StudentMainWebsite.xaml</DependentUpon>
     </Compile>
+    <Compile Include="StuModifyInformationWebsite.xaml.cs">
+      <DependentUpon>StuModifyInformationWebsite.xaml</DependentUpon>
+    </Compile>
     <Page Include="Login Website.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -109,6 +112,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="StudentMainWebsite.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StuModifyInformationWebsite.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
