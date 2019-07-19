@@ -61,5 +61,17 @@ namespace jiaxiaotong1._0
             RewardAndPenaltyCommentsWebsite w = new RewardAndPenaltyCommentsWebsite();
             w.Show();
         }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            AttendanceWebsite w = new AttendanceWebsite();
+            w.Show();
+        }
+
+        private void button5_Click(object sender, RoutedEventArgs e)
+        {
+            LookatHomeworkWebsites w = new LookatHomeworkWebsites();
+            w.Show();
+        }
     }
 }

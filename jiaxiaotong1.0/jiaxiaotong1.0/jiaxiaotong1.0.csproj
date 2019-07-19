@@ -61,8 +61,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AttendanceWebsite.xaml.cs">
+      <DependentUpon>AttendanceWebsite.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ExchangeWebsite.xaml.cs">
       <DependentUpon>ExchangeWebsite.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LookatHomeworkWebsites.xaml.cs">
+      <DependentUpon>LookatHomeworkWebsites.xaml</DependentUpon>
     </Compile>
     <Compile Include="ModifyPasswordWebsite.xaml.cs">
       <DependentUpon>ModifyPasswordWebsite.xaml</DependentUpon>
@@ -88,11 +94,19 @@
     <Compile Include="ViewMessageWebsite.xaml.cs">
       <DependentUpon>ViewMessageWebsite.xaml</DependentUpon>
     </Compile>
+    <Page Include="AttendanceWebsite.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ExchangeWebsite.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Login Website.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LookatHomeworkWebsites.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
