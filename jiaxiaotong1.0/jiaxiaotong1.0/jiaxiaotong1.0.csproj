@@ -38,6 +38,10 @@
     <Reference Include="Microsoft.Expression.Drawing, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.Expression.Interactions, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.Expression.Prototyping.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=8.0.16.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\pv\Documents\Tencent Files\1263781069\FileRecv\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -61,8 +65,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AttendanceManagementWebsite.xaml.cs">
+      <DependentUpon>AttendanceManagementWebsite.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AttendanceWebsite.xaml.cs">
       <DependentUpon>AttendanceWebsite.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="commentMeWb.xaml.cs">
+      <DependentUpon>commentMeWb.xaml</DependentUpon>
     </Compile>
     <Compile Include="ExchangeWebsite.xaml.cs">
       <DependentUpon>ExchangeWebsite.xaml</DependentUpon>
@@ -79,11 +89,23 @@
     <Compile Include="ParentsMainWebsite.xaml.cs">
       <DependentUpon>ParentsMainWebsite.xaml</DependentUpon>
     </Compile>
+    <Compile Include="parMeWb.xaml.cs">
+      <DependentUpon>parMeWb.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PublishHomework.xaml.cs">
+      <DependentUpon>PublishHomework.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RewardAndPenaltyCommentsWebsite.xaml.cs">
       <DependentUpon>RewardAndPenaltyCommentsWebsite.xaml</DependentUpon>
     </Compile>
+    <Compile Include="scoreMeWb.xaml.cs">
+      <DependentUpon>scoreMeWb.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ScoreWebsite.xaml.cs">
       <DependentUpon>ScoreWebsite.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StudentInformationManagementWebsite.xaml.cs">
+      <DependentUpon>StudentInformationManagementWebsite.xaml</DependentUpon>
     </Compile>
     <Compile Include="StudentMainWebsite.xaml.cs">
       <DependentUpon>StudentMainWebsite.xaml</DependentUpon>
@@ -91,13 +113,30 @@
     <Compile Include="StuModifyInformationWebsite.xaml.cs">
       <DependentUpon>StuModifyInformationWebsite.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SucessBWb.xaml.cs">
+      <DependentUpon>SucessBWb.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherInformationModificationWebsite.xaml.cs">
+      <DependentUpon>TeacherInformationModificationWebsite.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherMainWebsite.xaml.cs">
+      <DependentUpon>TeacherMainWebsite.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TeaModifyInformationWebsite.xaml.cs">
       <DependentUpon>TeaModifyInformationWebsite.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewMessageWebsite.xaml.cs">
       <DependentUpon>ViewMessageWebsite.xaml</DependentUpon>
     </Compile>
+    <Page Include="AttendanceManagementWebsite.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="AttendanceWebsite.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="commentMeWb.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -140,7 +179,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="parMeWb.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PublishHomework.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="RewardAndPenaltyCommentsWebsite.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="scoreMeWb.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -152,11 +203,27 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="StudentInformationManagementWebsite.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="StudentMainWebsite.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="StuModifyInformationWebsite.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SucessBWb.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TeacherInformationModificationWebsite.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TeacherMainWebsite.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -264,6 +331,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="user_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="group_32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

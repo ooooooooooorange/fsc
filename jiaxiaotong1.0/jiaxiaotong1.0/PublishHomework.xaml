@@ -1,0 +1,51 @@
+﻿<Window x:Class="jiaxiaotong1._0.PublishHomework"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:jiaxiaotong1._0"
+        mc:Ignorable="d"
+        Title="PublishHomework" Height="774" Width="1500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="350*"/>
+            <ColumnDefinition Width="859*"/>
+            <ColumnDefinition Width="285*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="121*"/>
+            <RowDefinition Height="133*"/>
+            <RowDefinition Height="114*"/>
+            <RowDefinition Height="376*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="背景1.png"/>
+        </Grid.Background>
+        <Label x:Name="label" Content="发布作业界面" Grid.Column="1" Margin="110.289,10,103.076,0" FontSize="72" FontWeight="Bold" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
+        <ListBox x:Name="listBox" Margin="0,0,60.2,0" Grid.Row="2" Height="76.137" VerticalAlignment="Top" RenderTransformOrigin="0.778,0.599">
+            <ListBoxItem Content="一年级"/>
+            <ListBoxItem Content="二年级"/>
+            <ListBoxItem Content="三年级"/>
+            <ListBoxItem Content="四年级"/>
+            <ListBoxItem Content="五年级"/>
+            <ListBoxItem Content="六年级"/>
+        </ListBox>
+        <ListBox x:Name="listBox_Copy" Margin="10,0,0,0" Grid.Row="2" Height="76.137" VerticalAlignment="Top" Grid.Column="1" HorizontalAlignment="Left" Width="289.707">
+            <ListBoxItem Content="一班"/>
+            <ListBoxItem Content="二班"/>
+        </ListBox>
+        <ListBox x:Name="listBox_Copy1" Margin="0,0,103.076,0" Grid.Row="2" Height="76.137" VerticalAlignment="Top" Grid.Column="1" HorizontalAlignment="Right" Width="289.707">
+            <ListBoxItem Content="语文"/>
+            <ListBoxItem Content="数学"/>
+            <ListBoxItem Content="英语"/>
+        </ListBox>
+        <Label x:Name="label1" Content="请选择年级：" Margin="10,58.135,133.906,10" Grid.Row="1" FontSize="36"/>
+        <Label x:Name="label1_Copy" Content="请选择班级：" Margin="10,58.135,0,10" Grid.Row="1" FontSize="36" Grid.Column="1" HorizontalAlignment="Left" Width="206.001"/>
+        <Label x:Name="label1_Copy1" Content="请选择科目：" Margin="0,58.135,186.782,10" Grid.Row="1" FontSize="36" Grid.Column="1" HorizontalAlignment="Right" Width="206.001"/>
+        <TextBox x:Name="textBox" Grid.ColumnSpan="3" Margin="0,10,10,86.8" Grid.Row="3" TextWrapping="Wrap" Text="TextBox" FontSize="36"/>
+        <Button x:Name="button1" Content="返回" Grid.Column="2" HorizontalAlignment="Left" Height="92" Margin="41.2,19,0,0" VerticalAlignment="Top" Width="199" Click="button1_Click" FontSize="36"/>
+        <Button x:Name="button1_Copy" Content="确定提交" Grid.Column="2" Height="58.2" Margin="-12.582,0,47.8,10" Grid.Row="3" VerticalAlignment="Bottom" IsCancel="True" FontSize="36" Click="button1_Copy_Click"/>
+
+    </Grid>
+</Window>
+

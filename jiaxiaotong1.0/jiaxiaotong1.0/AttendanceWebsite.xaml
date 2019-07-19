@@ -26,7 +26,6 @@
                 <DataGridTextColumn Header="时间"/>
                 <DataGridTextColumn Header="课程"/>
                 <DataGridTextColumn Header="考勤情况"/>
-                <DataGridTextColumn Header="备注"/>
             </DataGrid.Columns>
         </DataGrid>
 

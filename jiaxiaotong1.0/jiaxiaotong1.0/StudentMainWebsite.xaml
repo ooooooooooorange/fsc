@@ -29,7 +29,7 @@
         <Label x:Name="label1" Content="家校通学生平台" Grid.Column="2" Margin="100,20,20,20" FontSize="48" FontWeight="Bold" FontFamily="Adobe Caslon Pro Bold"/>
         <StackPanel Margin="55,12" Grid.Row="1">
 
-            <Button x:Name="button" Content="" Height="81.64" Click="button_Click">
+            <Button x:Name="button" Content="" Height="81.64" Click="button_Click" BorderThickness="0">
                 <Button.Background>
                     <ImageBrush ImageSource="6.png"/>
                 </Button.Background>
@@ -39,7 +39,7 @@
         </StackPanel>
         <StackPanel Margin="55,12" Grid.Row="2">
 
-            <Button x:Name="button1" Content="" Height="81.64" Click="button1_Click">
+            <Button x:Name="button1" Content="" Height="81.64" Click="button1_Click" BorderThickness="0">
                 <Button.Background>
                     <ImageBrush ImageSource="2.png"/>
                 </Button.Background>
@@ -49,7 +49,7 @@
         </StackPanel>
         <StackPanel Margin="55,12" Grid.Row="3">
 
-            <Button x:Name="button2" Content="" Height="81.64" Click="button2_Click">
+            <Button x:Name="button2" Content="" Height="81.64" Click="button2_Click" BorderThickness="0">
                 <Button.Background>
                     <ImageBrush ImageSource="图片1.png"/>
                 </Button.Background>
@@ -59,7 +59,7 @@
         </StackPanel>
         <StackPanel Margin="55,12,55,10" Grid.Row="4">
 
-            <Button x:Name="button3" Content="" Height="81.64" Click="button3_Click">
+            <Button x:Name="button3" Content="" Height="81.64" Click="button3_Click" BorderThickness="0">
                 <Button.Background>
                     <ImageBrush ImageSource="图片6.png"/>
                 </Button.Background>
@@ -69,7 +69,7 @@
         </StackPanel>
         <StackPanel Margin="55,12" Grid.Row="5">
 
-            <Button x:Name="button4" Content="" Height="81.64" Click="button4_Click">
+            <Button x:Name="button4" Content="" Height="81.64" Click="button4_Click" BorderThickness="0">
                 <Button.Background>
                     <ImageBrush ImageSource="图片7.png"/>
                 </Button.Background>
@@ -79,7 +79,7 @@
         </StackPanel>
         <StackPanel Margin="55,12" Grid.Row="1" Grid.Column="1">
 
-            <Button x:Name="button5" Content="" Height="80.04" Click="button5_Click">
+            <Button x:Name="button5" Content="" Height="80.04" Click="button5_Click" BorderThickness="0">
                 <Button.Background>
                     <ImageBrush ImageSource="图片8.png"/>
                 </Button.Background>
@@ -89,7 +89,7 @@
         </StackPanel>
         <StackPanel Margin="55,12" Grid.Row="2" Grid.Column="1">
 
-            <Button x:Name="button6" Content="" Height="82" Margin="0,0,0.4,0" Click="button6_Click">
+            <Button x:Name="button6" Content="" Height="82" Margin="0,0,0.4,0" Click="button6_Click" BorderThickness="0">
                 <Button.Background>
                     <ImageBrush ImageSource="图片5.png"/>
                 </Button.Background>

@@ -1,0 +1,16 @@
+﻿<Window x:Class="jiaxiaotong1._0.SucessBWb"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:jiaxiaotong1._0"
+        mc:Ignorable="d"
+        Title="SucessBWb" Height="668.4" Width="728.8">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="背景1.png"/>
+        </Grid.Background>
+        <Label x:Name="label" Content="提交成功" Margin="168.4,214.4,10,210" FontSize="72" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

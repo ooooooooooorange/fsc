@@ -39,7 +39,19 @@ namespace jiaxiaotong1._0
                 w.Show();
                 this.Close();
             }
+            if (t == "任课老师")
+            {
+                TeacherMainWebsite w = new TeacherMainWebsite();
+                w.Show();
+                this.Close();
+            }
 
+            if (t == "班主任")
+            {
+                TeacherMainWebsite w = new TeacherMainWebsite();
+                w.Show();
+                this.Close();
+            }
         }
     }
 }
