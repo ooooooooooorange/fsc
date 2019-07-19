@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:jiaxiaotong1._0"
         mc:Ignorable="d"
-       Title="StudentMainWebsite" Height="774" Width="1500">
+       Title="ParentMainWebsite" Height="774" Width="1500">
     <Window.Background>
         <ImageBrush ImageSource="背景1.png"/>
     </Window.Background>
@@ -29,7 +29,7 @@
         <Label x:Name="label1" Content="家校通家长平台" Grid.Column="2" Margin="100,20,20,20" FontSize="48" FontWeight="Bold" FontFamily="Adobe Caslon Pro Bold"/>
         <StackPanel Margin="55,12" Grid.Row="1">
 
-            <Button x:Name="button" Content="" Height="81.64">
+            <Button x:Name="button" Content="" Height="77" Margin="0,0,-1.6,0" Click="button_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="6.png"/>
                 </Button.Background>

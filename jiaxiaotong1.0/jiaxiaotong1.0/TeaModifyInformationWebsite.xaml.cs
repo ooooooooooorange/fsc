@@ -15,31 +15,30 @@ using System.Windows.Shapes;
 namespace jiaxiaotong1._0
 {
     /// <summary>
-    /// ParentsMainWebsite.xaml 的交互逻辑
+    /// ParModifyInformationWebsite.xaml 的交互逻辑
     /// </summary>
-    public partial class ParentsMainWebsite : Window
+    public partial class ParModifyInformationWebsite : Window
     {
-        public ParentsMainWebsite()
+        public ParModifyInformationWebsite()
         {
             InitializeComponent();
         }
 
-        private void button8_Click(object sender, RoutedEventArgs e)
-        {
-            Login_Website w = new Login_Website();
-            w.Show();
-            this.Close();
-        }
-
-        private void button7_Click(object sender, RoutedEventArgs e)
-        {
-            ModifyPasswordWebsite w = new ModifyPasswordWebsite();
-            w.Show();
-        }
-
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            ParModifyInformationWebsite w = new ParModifyInformationWebsite();
+            ModifySuccessfulBulletWindow w = new ModifySuccessfulBulletWindow();
+            w.Show();
+        }
+
+        private void button_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            ModifySuccessfulBulletWindow w = new ModifySuccessfulBulletWindow();
+            w.Show();
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            ParentsMainWebsite w = new ParentsMainWebsite();
             w.Show();
             this.Close();
         }

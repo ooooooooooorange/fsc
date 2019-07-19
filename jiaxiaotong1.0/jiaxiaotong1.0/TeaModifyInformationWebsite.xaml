@@ -1,11 +1,11 @@
-﻿<Window x:Class="jiaxiaotong1._0.StuModifyInformationWebsite"
+﻿<Window x:Class="jiaxiaotong1._0.ParModifyInformationWebsite"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:jiaxiaotong1._0"
         mc:Ignorable="d"
-        Title="StuModifyInformationWebsite" Height="774" Width="1500">
+        Title="ParModifyInformationWebsite" Height="774" Width="1500">
     <Window.Background>
         <ImageBrush ImageSource="背景1.png"/>
     </Window.Background>
@@ -29,24 +29,25 @@
             <RowDefinition Height="111*"/>
         </Grid.RowDefinitions>
         <Label x:Name="label" Content="查看个人信息界面" Grid.Column="2" Margin="99.199,0,126.299,0" FontSize="48" FontWeight="Bold" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" Grid.ColumnSpan="2"/>
-        <Label x:Name="label1" Content="亲爱的同学，欢迎使用家校通：" Margin="0,20,-49.199,3.606" Grid.ColumnSpan="2" FontSize="24" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
+        <Label x:Name="label1" Content="尊敬的家长，欢迎使用家校通：" Margin="0,20,-49.199,3.606" Grid.ColumnSpan="2" FontSize="24" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
         <Rectangle Grid.ColumnSpan="4" Fill="#FFF4F4F5" Margin="0,0,1.601,31.6" Grid.Row="1" Grid.RowSpan="7" Stroke="Black" Opacity="0.5" Grid.Column="1" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
-        <Label x:Name="label2" Content="学号：" Grid.Column="2" Margin="0,33.848,0,5" Grid.Row="1" HorizontalAlignment="Right" Width="91.333" FontSize="24" FontWeight="Bold" RenderTransformOrigin="0.531,0.471" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
+        <Label x:Name="label2" Content="手机号：" Grid.Column="2" Margin="0,33.848,0,0" Grid.Row="1" HorizontalAlignment="Right" Width="91.333" FontSize="24" FontWeight="Bold" RenderTransformOrigin="0.531,0.471" d:LayoutOverrides="LeftMargin, RightMargin" Height="54.202" VerticalAlignment="Top"/>
         <Label x:Name="label2_Copy" Content="姓名：" Grid.Column="2" Margin="0,27.248,0,10" Grid.Row="2" HorizontalAlignment="Right" Width="91.333" FontSize="24" FontWeight="Bold" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
-        <Label x:Name="label2_Copy1" Content="年级：" Grid.Column="2" Margin="0,10,0,28.848" Grid.Row="3" HorizontalAlignment="Right" Width="91.333" FontSize="24" FontWeight="Bold" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
-        <Label x:Name="label2_Copy2" Content="班级：" Grid.Column="2" Margin="0,0,0,38.84" Grid.Row="4" HorizontalAlignment="Right" Width="91.333" FontSize="24" FontWeight="Bold" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
-        <Label x:Name="label2_Copy3" Content="住址：" Grid.Column="2" Margin="0,10,0,29.832" Grid.Row="5" HorizontalAlignment="Right" Width="91.333" FontSize="24" FontWeight="Bold" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
-        <Label x:Name="label2_Copy4" Content="家长姓名：" Grid.Column="2" Margin="116.799,10,10,33.64" Grid.Row="6" FontSize="24" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
-        <Label x:Name="label2_Copy5" Content="班主任姓名：" Grid.Column="2" Margin="99.199,6.247,10,31.6" Grid.Row="7" FontSize="24" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
+        <Label x:Name="label2_Copy1" Content="子女所在年级：" Grid.Column="2" Margin="71.716,10,0,28.848" Grid.Row="3" FontSize="24" FontWeight="Bold" d:LayoutOverrides="TopMargin, BottomMargin"/>
+        <Label x:Name="label2_Copy2" Content="子女所在班级：" Grid.Column="2" Margin="71.716,0,0,38.84" Grid.Row="4" FontSize="24" FontWeight="Bold" d:LayoutOverrides="TopMargin, BottomMargin"/>
+        <Label x:Name="label2_Copy3" Content="职业：" Grid.Column="2" Margin="0,19.832,10,10" Grid.Row="5" FontSize="24" FontWeight="Bold" HorizontalAlignment="Right" Width="91.333"/>
+        <Label x:Name="label2_Copy4" Content="工作地点：" Grid.Column="2" Margin="116.799,10,10,33.64" Grid.Row="6" FontSize="24" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
+        <Label x:Name="label2_Copy5" Content="性别：" Grid.Column="2" Margin="0,10,10,31.6" Grid.Row="7" FontSize="24" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="81.333"/>
         <TextBlock x:Name="textBlock" Grid.Column="3" Margin="0,33.848,20,10" Grid.Row="1" TextWrapping="Wrap" FontSize="24" Background="#FFECF6EE" OpacityMask="#FF080707" Foreground="#FF0C0B0B" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
         <TextBlock x:Name="textBlock_Copy" Grid.Column="3" Margin="0,32.248,20,19.604" Grid.Row="2" TextWrapping="Wrap" FontSize="24" Background="#FFECF6EE" OpacityMask="#FF080707" Foreground="#FF0C0B0B" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
         <TextBlock x:Name="textBlock_Copy1" Grid.Column="3" Margin="0,15,20,45.858" Grid.Row="3" TextWrapping="Wrap" FontSize="24" Background="#FFECF6EE" OpacityMask="#FF080707" Foreground="#FF0C0B0B" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
         <TextBlock x:Name="textBlock_Copy2" Grid.Column="3" Margin="0,10,20,20.841" Grid.Row="4" TextWrapping="Wrap" FontSize="24" Background="#FFECF6EE" OpacityMask="#FF080707" Foreground="#FF0C0B0B" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
-        <TextBlock x:Name="textBlock_Copy4" Grid.Column="3" Margin="0,15,20,28.848" Grid.Row="6" TextWrapping="Wrap" FontSize="24" Background="#FFECF6EE" OpacityMask="#FF080707" Foreground="#FF0C0B0B" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
         <TextBlock x:Name="textBlock_Copy5" Grid.Column="3" Margin="0,10,20,51.858" Grid.Row="7" TextWrapping="Wrap" FontSize="24" Background="#FFECF6EE" OpacityMask="#FF080707" Foreground="#FF0C0B0B" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
         <TextBox x:Name="textBox" Grid.Column="3" Margin="0,14,20,20" Grid.Row="5" TextWrapping="Wrap" FontSize="24" RenderTransformOrigin="0.493,0.626" Background="#FFECF6EE" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
         <Button x:Name="button" Content="确认修改" Grid.Column="4" Margin="34.914,26.605,37.437,20" Grid.Row="5" FontSize="24" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" Click="button_Click"/>
-        <Button x:Name="button1" Content="返回" Grid.Column="5" Margin="3.399,51.673,7.601,12.947" Grid.Row="7" FontSize="24" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" Click="button1_Click" RenderTransformOrigin="0.501,0.502"/>
+        <Button x:Name="button1" Content="返回" Grid.Column="5" Margin="3.399,51.673,7.601,12.947" Grid.Row="7" FontSize="24" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" Click="button1_Click" />
+        <TextBox x:Name="textBox_Copy" Grid.Column="3" Margin="0,8.364,20,33.64" Grid.Row="6" TextWrapping="Wrap" FontSize="24" RenderTransformOrigin="0.493,0.626" Background="#FFECF6EE"/>
+        <Button x:Name="button_Copy" Content="确认修改" Grid.Column="4" Margin="34.914,31.057,37.437,23.553" Grid.Row="6" FontSize="24" d:LayoutOverrides="LeftMargin, RightMargin" Click="button_Copy_Click"/>
 
     </Grid>
 </Window>
